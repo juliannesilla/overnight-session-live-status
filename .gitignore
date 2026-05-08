@@ -1,0 +1,13 @@
+# Prevent accidental tracking of working files written into this repo dir.
+# This repo should ONLY ever publish: index.html, .nojekyll, LICENSE, README.md
+# Anything else is a leak risk.
+
+# Block any subfolder
+*/
+
+# Allow only the encrypted gate page and metadata
+!.nojekyll
+!.gitignore
+!index.html
+!LICENSE
+!README.md
